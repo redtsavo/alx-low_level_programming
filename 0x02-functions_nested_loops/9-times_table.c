@@ -11,13 +11,13 @@ void times_table(void)
 
 	for (row = 0; row <= 9; row++)
 	{
-		for (collumn = 0; column <= 9; column++)
+		for (column = 0; column <= 9; column++)
 		{
 			product = (row * column);
 
-			if (colum == 0)
+			if (column == 0)
 			{
-				_putchar('0' = product);
+				_putchar('0' + product);
 			}
 			else if (product <= 9)
 			{
